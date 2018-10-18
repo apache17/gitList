@@ -25,50 +25,28 @@
 - Media Queries
 */
 
-/* SEARCH BAR */
+
+
 .search input[type=text] {
+  font-size: 13px;
   float: right;
   padding: 6px;
   border-radius: 25px;
   border-color:  #E7EFF4;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 13px;
-  width: 40%;
   background-color: #E7EFF4;
-  font-weight: bold;
   color:gray;
   position:absolute;
-  left: 30%;
-  top: 100px;
-}
-.search{
-  overflow: auto;
-  margin: 0;
-  align-self: auto;
-  cursor: pointer;
+  width: 20%;
+  margin: 4% 25%;
 }
 
-@media only screen and (min-width : 150px) and (max-width : 780px)
-{
-	{}
-	.search
-	{
-		width: 95%;
-		margin: 0 auto;
-	}
-
-}
-.fa{
-  color:green;
-  font-size: 35px;
+#icon{
   position: absolute;
-  left: 66%;
-  bottom:1px;
-  top: 110px;
+  color: green;
+  margin: 4.5% 43%;
+  font-size: 25px;
 }
 
-/* HEADER */
 
 .header {
   overflow: hidden;

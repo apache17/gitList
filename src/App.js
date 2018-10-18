@@ -6,10 +6,7 @@ import Search from './Search';
 const App = () => {
   return (
     <div>
-      <Header />
-      <div className="container">
-        <h1>Lista de proyectos de GitHub!</h1>
-      </div>
+      <Header />      
       <Search />
     </div>
   );
